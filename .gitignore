@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Secrets (never upload these)
+.env
+*.key
+
+# Data and models (can be large)
+data/
+datasets/
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+# Node / web projects
+node_modules/
+dist/
+build/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
